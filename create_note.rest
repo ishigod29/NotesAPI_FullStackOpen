@@ -1,0 +1,19 @@
+###GET
+GET http://localhost:3001/api/notes/
+
+###POST
+POST http://localhost:3001/api/notes/
+Content-Type: application/json
+
+{
+    "content": "REST client",
+    "important": false
+}
+###
+PUT http://localhost:3001/api/notes/2
+Content-Type: application/json
+
+{
+    "content": "REST client",
+    "important": false
+}
